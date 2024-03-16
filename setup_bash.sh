@@ -2,6 +2,7 @@
 
 # Update system and install necessary tools
 echo "Updating system and installing prerequisites..."
+# If you are a root user, then you'll probably get "wtf is sudo" while executing following commands
 sudo apt-get update
 sudo apt-get install -y git curl wget zsh tmux fzf
 
