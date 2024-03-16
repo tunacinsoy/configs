@@ -4,7 +4,7 @@
 echo "Updating system and installing prerequisites..."
 # If you are a root user, then you'll probably get "wtf is sudo" while executing following commands
 sudo apt-get update
-sudo apt-get install -y git curl wget zsh tmux fzf
+sudo apt-get install -y git curl zsh tmux fzf
 
 # Install Oh My Zsh without changing the shell automatically
 echo "Installing Oh My Zsh without auto-changing the shell..."
